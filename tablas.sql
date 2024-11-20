@@ -18,7 +18,8 @@ CREATE TABLE JS_FS_FV_VV_Previsiones (
 
 CREATE TABLE JS_FS_FV_VV_Salud (
     ID_Salud NUMBER PRIMARY KEY,
-    Nombre VARCHAR2(20)
+    Nombre VARCHAR2(20),
+    Afp_Porcentaje NUMBER
 );
 
 CREATE TABLE JS_FS_FV_VV_Horas_Disponibles (
